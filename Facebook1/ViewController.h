@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
 @interface ViewController : UIViewController{
-    
-    
+    NSMutableData *userdata;
+    NSDictionary *aboutMe;
 }
-
+@property(nonatomic,retain) NSMutableData *userdata;
+@property(nonatomic,retain) NSDictionary *aboutMe;
 @end

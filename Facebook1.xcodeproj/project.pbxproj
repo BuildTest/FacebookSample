@@ -20,6 +20,7 @@
 		A7144A6316193205002EFAB4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7144A6116193205002EFAB4 /* ViewController.xib */; };
 		A7144A6A16193238002EFAB4 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7144A6916193238002EFAB4 /* FacebookSDK.framework */; };
 		A7144A6C16193730002EFAB4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A7144A6B16193730002EFAB4 /* libsqlite3.dylib */; };
+		A737E8F7161AF52E009F006A /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A737E8F6161AF52E009F006A /* images.jpeg */; };
 		A747B833161954B20021310C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A747B832161954B20021310C /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		A7144A6216193205002EFAB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		A7144A6916193238002EFAB4 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		A7144A6B16193730002EFAB4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A737E8F6161AF52E009F006A /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		A747B832161954B20021310C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 		A7144A4C16193204002EFAB4 /* Facebook1 */ = {
 			isa = PBXGroup;
 			children = (
+				A737E8F6161AF52E009F006A /* images.jpeg */,
 				A7144A5516193204002EFAB4 /* AppDelegate.h */,
 				A7144A5616193204002EFAB4 /* AppDelegate.m */,
 				A7144A5E16193205002EFAB4 /* ViewController.h */,
@@ -175,6 +178,7 @@
 				A7144A5B16193204002EFAB4 /* Default@2x.png in Resources */,
 				A7144A5D16193205002EFAB4 /* Default-568h@2x.png in Resources */,
 				A7144A6316193205002EFAB4 /* ViewController.xib in Resources */,
+				A737E8F7161AF52E009F006A /* images.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
